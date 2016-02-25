@@ -4,9 +4,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-
-import ru.st.selenium.pages.HomePage;
 
 public class HomePageTest extends TestBase {
 

@@ -1,14 +1,10 @@
 package ru.st.selenium;
 
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-import org.testng.*;
-import org.testng.annotations.*;
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
 public class LoginTest extends ru.st.selenium.pages.TestBase {
   private boolean acceptNextAlert = true;

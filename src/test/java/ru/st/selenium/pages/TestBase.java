@@ -5,13 +5,11 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
-import ru.stqa.selenium.factory.WebDriverFactory;
-
 import ru.st.selenium.util.PropertyLoader;
+import ru.stqa.selenium.factory.WebDriverFactory;
 
 /**
  * Base class for all the TestNG-based test classes
